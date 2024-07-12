@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.totals-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.total-item {
+  text-align: center;
+  color: #333;
+}
+
+.total-item h2 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.total-item p {
+  margin: 5px 0 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
