@@ -76,3 +76,14 @@ tr:nth-child(even) {
 tr:hover {
   background-color: #f1f1f1;
 }
+
+.btn-custom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-custom svg {
+  margin-right: 8px; /* Adjust space between icon and text */
+}
+
