@@ -80,4 +80,4 @@ Please ensure your code adheres to our coding standards and includes tests where
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/PATILYASHH/LICENES) file for details.
