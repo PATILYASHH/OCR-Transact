@@ -2,6 +2,8 @@
 
 OCR-Transact is a web application designed to transform screenshots into transactions. The application leverages OCR (Optical Character Recognition) technology via the Gemini API to extract transaction data from images and present it in a user-friendly table and chart format.
 
+![Website Plan](plan.png)
+
 ## Features
 
 - **Screenshot Upload**: Easily upload screenshots of transactions.
@@ -29,31 +31,40 @@ OCR-Transact is a web application designed to transform screenshots into transac
 ## Setup Instructions
 
 1. **Clone the repository**:
-   ```sh
-   git clone https://github.com/yourusername/OCR-Transact.git
-   cd OCR-Transact 
+    ```sh
+    git clone https://github.com/PATILYASHH/OCR-Transact.git
+    cd OCR-Transact
+    ```
 
 2. **Install Dependencies**:
-   ```sh
-   npm install 
-
-3. **Setup Environment Variables**:
-Create a .env file in the root directory and add your Gemini API key:
     ```sh
-GEMINI_API_KEY=your_gemini_api_key```
+    npm install
+    ```
 
-4. **Run the Application**:
-   ```sh
-  npm start
+3. **Run the Application**:
+    ```sh
+    npm start
+    ```
 
-5. **Access the Frontend**:
-   Visit OCR-Transact(https://ocrtransact.vercel.app/) to see the application in action.
+4. **Access the Frontend**:
+    Visit [OCR-Transact](https://ocrtransact.vercel.app/) to see the application in action.
+
+5. **Set API Key**:
+    Enter your Gemini API key on the website to enable OCR processing.
+
+## Example Transaction Table
+
+| Transaction ID | Name         | Amount | Debited/Credited | Date       | Time    |
+|----------------|--------------|--------|------------------|------------|---------|
+| 1              | John Doe     | $100   | Credited         | 2024-07-15 | 12:34PM |
+| 2              | Jane Smith   | $50    | Debited          | 2024-07-14 | 03:45PM |
+| 3              | Bob Johnson  | $200   | Credited         | 2024-07-13 | 09:20AM |
 
 ## Remaining Work
 
-**Backend Development**: Complete the integration with the Gemini API and handle image processing, transaction data extraction, and storage.
-**Frontend Design Improvement**: Enhance the user interface for a better user experience.
-**Responsiveness**: Ensure the application is fully responsive across all devices and screen sizes.
+- **Backend Development**: Complete the integration with the Gemini API and handle image processing, transaction data extraction, and storage.
+- **Frontend Design Improvement**: Enhance the user interface for a better user experience.
+- **Responsiveness**: Ensure the application is fully responsive across all devices and screen sizes.
 
 ## Contributing
 
@@ -61,11 +72,12 @@ We welcome contributions from the community! If you're interested in contributin
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/YourFeature`).
-3. Commit your changes (`git commit -m 'Add some feature').
+3. Commit your changes (`git commit -m 'Add some feature'`).
 4. Push to the branch (`git push origin feature/YourFeature`).
 5. Open a pull request.
 
-   Please ensure your code adheres to our coding standards and includes tests where applicable.
+Please ensure your code adheres to our coding standards and includes tests where applicable.
 
-   License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
