@@ -2,7 +2,7 @@
 
 OCR-Transact is a web application designed to transform screenshots into transactions. The application leverages OCR (Optical Character Recognition) technology via the Gemini API to extract transaction data from images and present it in a user-friendly table and chart format.
 
-![Website Plan](plan.png)
+![Website Plan](image.png)
 
 ## Features
 
